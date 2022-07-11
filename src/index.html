@@ -17,26 +17,35 @@
       <div class="container">
         Personal information
 
-        <div class="form-field">Surname:
-          <input type="text" name="Surname">
+        <div class="form-field"> <label for="Surname">Surname:</label>
+          <input type="text" name="Surname"
+          id="Surname">
         </div>
-        <div class="form-field">Name:
+
+        <div class="form-field"> <label for="Name:">Name:</label>
           <input
           type="text"
-          name="Name">
+          name="Name"
+          id="Name">
         </div>
-        <div class="form-field">How old are You?
+
+        <div class="form-field"> <label for="age">How old are You?</label>
           <input
           type="number"
           name="How old are You?"
-          value= "12">
+          value= "12"
+          id="age">
         </div>
-        <div class="form-field">Full date of birth:
+
+        <div class="form-field"> <label for="date-of-birth">Full date of birth:</label>
           <input type="text" name="Full date of birth"
-          placeholder="mm/dd/yyyy">
+          placeholder="mm/dd/yyyy"
+          id="date-of-birth">
         </div>
-        <div class="form-field">I accept the term of the agreement
-          <input type="checkbox" name="I accept the term of the agreement">
+
+        <div class="form-field"> <label for="terms">I accept the term of the agreement</label>
+          <input type="checkbox" name="I accept the term of the agreement"
+          id="terms">
         </div>
       </div>
     </form>
@@ -46,20 +55,79 @@
 
         Registration
 
-      <div class="form-field">E-mail:
+      <div class="form-field"> <label for="E-mail">E-mail:</label>
         <input type="email"
           name="E-mail"
           placeholder="email@example.com"
-          >
+          id="E-mail"
+          required>
       </div>
-      <div class="form-field">Password:
+
+      <div class="form-field"> <label for="Password">Password:</label>
         <input
           type="password"
-          name="password">
+          name="password"
+          id="Password">
       </div>
     </div>
-
     </form>
+
+    <form action="https://mate-academy-form-lesson.herokuapp.com/create-application" method="get">
+
+      <div class="container">
+        An interesting fact about you!
+
+        <div class="form-field"> <label for="cats">Do you love cats?</label>
+          <input type="text"
+          name="Do you love cats?"
+          id="cats">
+        </div>
+
+        <div class="form-field"> <label for="color?">What your favorite color?</label>
+          <input
+          type="text"
+          name="What your favorite color?"
+          id="color?">
+        </div>
+
+        <div class="form-field"> <label for="time-to-bad">What time do you go to bed?</label>
+          <input
+          type="number"
+          name="What time do you go to bed?"
+          id="time-to-bad">
+        </div>
+
+        <div class="form-field"> <label for="cars?">What are your favorite brand of cars?</label>
+          <input type="text" name="What are your favorite brand of cars?"
+          id="cars?">
+        </div>
+
+        <div class="form-field"> <label for="rate-of-work">How do you rate our work?</label>
+          <input type="checkbox"
+          name="How do you rate our work?"
+          id="rate-of-work">
+        </div>
+      </div>
+    </form>
+
+    <form action="https://mate-academy-form-lesson.herokuapp.com/create-application" method="get"></form>
+    <div class="container">
+
+        Additional info
+
+      <div class="form-field">Comments:
+        <input type="comments"
+          name="comments"
+          >
+      </div>
+      <div class="form-field">Would you recommend us?
+        <input
+          type="password"
+          name="Would you recommend us?">
+      </div>
+    </div>
+    </form>
+
 
 
     <script type="text/javascript" src="./main.js"></script>
