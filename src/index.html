@@ -11,7 +11,41 @@
     <link rel="stylesheet" href="./style.css">
   </head>
   <body>
-    <h1>HTML Form</h1>
+ 
+    <form action="https://mate-academy-form-lesson.herokuapp.com/create-application" method="post">
+
+      <div class="container">
+        Personal information
+
+        <div class="form-field">Surname:
+          <input type="text" name="Surname">
+        </div>
+        <div class="form-field">Name:
+          <input
+          type="text"
+          name="Name">
+        </div>
+        <div class="form-field">How old are You?
+          <input
+          type="text"
+          name="How old are You?"
+          value= "12">
+        </div>
+        <div class="form-field">Full date of birth:
+          <input type="text" name="Full date of birth"
+          placeholder="mm/dd/yyyy">
+        </div>
+        <div class="form-field">I accept the term of the agreement
+          <input type="text" name="I accept the term of the agreement">
+        </div>
+
+      </div>
+
+
+    </form>
+
+
     <script type="text/javascript" src="./main.js"></script>
+
   </body>
 </html>
