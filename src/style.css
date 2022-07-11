@@ -1,8 +1,12 @@
 /* styles go here */
+body {
+  margin: 0;
+}
+
 .form-field {
-  margin: 10px 0;
+  padding: 10px 0;
 }
 
 .fieldset {
-  margin: 20px 0;
+  margin: 10px 0;
 }
