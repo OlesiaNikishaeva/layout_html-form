@@ -5,6 +5,7 @@ body {
 
 .form-field {
   margin-bottom: 10px;
+  display: block;
 }
 
 .fieldset {
@@ -17,5 +18,5 @@ body {
 }
 
 .button {
-  margin-left: 10px;
+  margin-top: 0;
 }
